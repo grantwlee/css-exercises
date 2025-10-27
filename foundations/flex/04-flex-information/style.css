@@ -10,6 +10,28 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.images{
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant{
+  /* most of this is not necessary, if the display is block 
+  then they will already be stacked on top of each other */
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  align-items: center;
+}
+
+/* also not necessary, can apply text align to the whole body */
+.text{
+  text-align: center;
 }
 
 /* do not edit this footer */
